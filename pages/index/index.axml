@@ -1,0 +1,36 @@
+<view class="container-Main">
+  <view class="container-Input">
+    <input onInput="onHandleInput"  type="number" class="cursor"  value={{valueInput}} cursor={{false}} />
+    <text class="text-answer">{{answer}}</text>
+    <!--Barra vertical-->
+    <view class="vertical-bar">
+    </view>  
+  </view>
+
+  <view class="container-btn">
+    <text>√</text>
+    <text>π</text>
+    <text>^</text>
+    <text>!</text>
+    <button size="default" type="primary" onTap="fuctionBtnAC" class="btn-AC">AC</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="()" class="btn-operation">( )</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="%" class="btn-operation">%</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="/" class="btn-operation">/</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="7" class="btn-number">7</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="8" class="btn-number">8</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="9" class="btn-number">9</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="*" class="btn-operation">x</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="4"class="btn-number">4</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="5" class="btn-number">5</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="6" class="btn-number">6</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="-" class="btn-operation">-</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="1" class="btn-number">1</button>
+    <button size="default" type="primary"onTap="fuctionBtn" data-value="2" class="btn-number">2</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="3" class="btn-number">3</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="+" class="btn-operation">+</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="0" class="btn-number">0</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="." class="btn-number">.</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="?" class="btn-number">?</button>
+    <button size="default" type="primary" onTap="fuctionBtn" data-value="=" class="btn-operation">=</button> 
+  </view>
+</view>

@@ -1,0 +1,84 @@
+:root{
+  --primary:#55585e;
+}
+.container-Main{
+  background-color:#292828;
+}
+.container-Input{
+  width: 100vw;
+  height: 250px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  background-color:var(--primary);
+  position: relative;
+
+}
+
+.vertical-bar{
+  width: 26px;
+  height: 4px;
+  background-color:#FFFFFF;
+  position: absolute;
+  top:236px;
+  left: 179px;
+  border-radius: 67px;
+}
+
+.cursor{
+  text-align: right;
+  height: 200px;
+  font-size: 90px;
+  background-color: var(--primary);
+}
+
+.container-btn{
+  height: 150px;
+  display:flex;
+  flex-wrap:wrap;
+  gap: 12px;
+  margin-top:16px;
+  padding-left: 35px;
+
+}
+
+button{
+  width: 70px;
+  height: 70px;
+  border:none;
+  border-radius: 47px;
+  font-size: 31px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+text{
+  margin: 1px 60px 1px 1px;
+  font-size: 40px;
+  color: white;
+}
+
+.btn-AC{
+  background-color: #198136;
+}
+
+.btn-number{
+  background-color: #404040;
+}
+
+.btn-operation{
+  background-color:#01609b;
+}
+
+input{
+  color: white;
+}
+
+.text-answer{
+  position: absolute;
+  right: -46px;
+  bottom: 21px;
+  font-size: 57px;
+}
+
+
